@@ -28,7 +28,8 @@ int main(){
 		else{
 			strcat(binPath, command);
 			arguments(binPath);
-			if((file = fopen(program, "r"))){
+			if(strcmp(program, "cd") chdir(argumentList[0]);
+			else if((file = fopen(program, "r"))){
 				engine(program);	
 			}else{
 				printf("command does not exist\n");
