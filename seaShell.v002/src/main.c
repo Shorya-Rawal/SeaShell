@@ -28,7 +28,7 @@ int main(){
 		else{
 			strcat(binPath, command);
 			arguments(binPath);
-			if(strcmp(program, "cd") chdir(argumentList[0]);
+			if(strcmp(program, "cd") == 0) chdir(argumentList[0]);
 			else if((file = fopen(program, "r"))){
 				engine(program);	
 			}else{
